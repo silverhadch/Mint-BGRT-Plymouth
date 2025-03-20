@@ -1,47 +1,47 @@
 [Plymouth Theme]
-Name[be]=Круцёлка
-Name[cs]=Točítko
-Name[da]=Snurre
-Name[de]=Spinner
-Name[eo]=Turnilo
-Name[es]=Spinner
-Name[eu]=Spinner
-Name[fr]=Roulette
-Name[fur]=Roulette
-Name[hi]=चक्र
-Name[hr]=Puls okretanja
-Name[hu]=Forgó
-Name[id]=Spinner
-Name[it]=Spinner
-Name[lt]=Suktukas
-Name[ka]=სპინერი
-Name[nl]=Spinner
-Name[pa]=ਸਪਿੱਨਰ
-Name[pl]=Spinner
-Name[pt_BR]=Spinner
-Name[ro]=Titirez
-Name[ru]=Числовое поле с кнопками
-Name[sr]=Предилица
-Name[sv]=Spinnare
-Name[uk]=Крутний індикатор
-Name[zh_CN]=Spinner
-Name[ms]=Spinner
-Name[he]=שבשבת טעינה
-Name[fa]=چرخنده
-Name[fi]=Spinneri
-Name[ie]=Volante
-Name[gl]=Spinner
-Name[cy]=Troellydd
-Name=Spinner
-Description=A theme designed by jimmac that features a simple spinner.
+Name[be]=BGRT
+Name[cs]=BGRT
+Name[da]=BGRT
+Name[de]=BGRT
+Name[eo]=BGRT
+Name[es]=BGRT
+Name[eu]=BGRT
+Name[fr]=BGRT
+Name[fur]=BGRT
+Name[hi]=BGRT (सिस्टम का लोगो)
+Name[hr]=BGRT
+Name[hu]=BGRT
+Name[id]=BGRT
+Name[it]=BGRT
+Name[lt]=BGRT
+Name[ka]=BGRT
+Name[nl]=BGRT
+Name[pa]=BGRT
+Name[pl]=BGRT
+Name[pt_BR]=BGRT
+Name[ro]=BGRT
+Name[ru]=BGRT
+Name[sr]=BGRT
+Name[sv]=BGRT
+Name[uk]=BGRT
+Name[zh_CN]=BGRT
+Name[ms]=BGRT
+Name[he]=BGRT
+Name[fa]=BGRT
+Name[fi]=BGRT
+Name[ie]=BGRT
+Name[gl]=BGRT
+Name[cy]=BGRT
+Name=BGRT
+Description=Jimmac's spinner theme using the ACPI BGRT graphics as background
 ModuleName=two-step
 
 [two-step]
-Font=Cantarell 12
-TitleFont=Cantarell Light 30
-ImageDir=/usr/share/plymouth/themes//spinner
+Font=Ubuntu 12
+TitleFont=Ubuntu Light 30
+ImageDir=/usr/share/plymouth/themes//spinner-mint
 DialogHorizontalAlignment=.5
-DialogVerticalAlignment=.382
+DialogVerticalAlignment=.7
 TitleHorizontalAlignment=.5
 TitleVerticalAlignment=.382
 HorizontalAlignment=.5
@@ -54,16 +54,20 @@ BackgroundStartColor=0x000000
 BackgroundEndColor=0x000000
 ProgressBarBackgroundColor=0x606060
 ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=false
 MessageBelowAnimation=true
 
 [boot-up]
 UseEndAnimation=false
+UseFirmwareBackground=true
 
 [shutdown]
 UseEndAnimation=false
+UseFirmwareBackground=true
 
 [reboot]
 UseEndAnimation=false
+UseFirmwareBackground=true
 
 [updates]
 SuppressMessages=true
